@@ -9,4 +9,64 @@
     font-style: normal;
     font-variation-settings:
       "slnt" 0;
+   
   }
+  
+
+  /* shared styles */
+.display-flex{
+    display: flex;
+}
+
+.bg{
+    background-color: rgba(17, 17, 17, 1);
+}
+.text-white{
+    color: rgba(255, 255, 255, 1);
+}
+
+.text-orange{
+    color: rgba(230, 83, 60, 1);
+}
+
+.text-off-white{
+    color: rgba(239, 237, 232, 0.65);
+}
+  /* header styles */
+
+
+  /* navbar related styles */
+  .navbar{
+    justify-content: space-between;
+    background-color: rgba(17, 17, 17, 1);
+    
+  }
+
+  .navbar h3{
+    font-style: italic;
+    font-weight: bold;
+  }
+
+  .navbar img{
+    display: flex;
+    flex-direction: column;
+  }
+.nav-item{
+    list-style: none;
+    margin-right: 30px;
+}
+.nav-link{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+ 
+}
+
+/* banner related styles */
+.banner-content{
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+}
+.banner-tittle{
+    font-weight: bold;
+}
