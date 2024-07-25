@@ -11,6 +11,13 @@
       "slnt" 0;
    
   }
+
+  @import url('https://fonts.cdnfonts.com/css/miama');
+
+  .miama-font{
+    font-family: 'Miama', sans-serif;
+  }
+  
   
 
   /* shared styles */
@@ -48,8 +55,7 @@
   }
 
   .navbar img{
-    display: flex;
-    flex-direction: column;
+    
   }
 .nav-item{
     list-style: none;
@@ -68,5 +74,10 @@
     text-align: center;
 }
 .banner-tittle{
-    font-weight: bold;
+    font-weight: bolder;
+}
+
+.background-c
+.mile-section{
+    background-color: rgba(34, 34, 34, 1);
 }
