@@ -628,16 +628,17 @@
 }
 
 .border-line{
-    margin-top: 40px;
+    
     border-style: solid;
     width: 80%;
-    margin: 0 auto;
+    margin-top: 80px;
+    margin-left: 95px;
     border: 1px solid rgba(255, 255, 255, 0.5);
 }
 
 .last-line-tittle{
     color:rgba(255, 255, 255, 0.5) ;
     text-align: center;
-    margin-top: 60px;
+    margin-top: 50px;
     margin-bottom: 10px;
 }
