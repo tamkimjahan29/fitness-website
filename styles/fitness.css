@@ -99,10 +99,11 @@
 
 }
 
-.navbar h3 {
+.navbar h1 {
     font-style: italic;
     font-weight: bold;
     margin-top: 50px;
+    font-size: 2.25rem;
 }
 
 .nav-border {
@@ -142,8 +143,29 @@
     padding-right: 30px;
     border-radius: 50px;
 }
-
+.nav-imge{
+    display: none;
+}
 /* responsive media query */
+
+@media screen and (max-width:576px) {
+    .navbar{
+        flex-direction: column;
+        display: hidden;
+    }
+    .nav-links{
+        
+        
+    }
+    .nav-imge{
+        display: block;
+        
+    }
+   
+    }
+   
+
+
 
 
 
@@ -168,9 +190,9 @@
     border-radius: 20px;
     background-color: rgba(230, 83, 60, 1);
     border: none;
-    margin-left: 5px;
+    margin-left: 2px;
     margin-right: 5px;
-    margin-top: 20x;
+    margin-top: 30x;
 }
 
 
@@ -186,6 +208,8 @@
     text-align: center;
     padding-right: 20px;
     position: absolute;
+    margin-top: 2px;
+    margin: 0 auto;
 
 }
 
@@ -195,14 +219,14 @@
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 10px;
     background: rgba(255, 255, 255, 0.1);
-    margin-left: 280px;
-    margin-top: 10px;
+    margin-left:5x;
+    margin-right: px;
+    margin-top: 7px;
+    margin-bottom: 200px;
     position: absolute;
 }
 
-.banner-image-content{
-    position: relative;
-}
+
 .number-1 {
     font-size: 2rem;
 }
@@ -223,6 +247,7 @@
     margin-bottom: 230px;
     margin: 0 auto;
     max-width: 1044px;
+    
 }
 
 .banner-container {
@@ -237,6 +262,7 @@
     width: 520px;
     color: white;
     margin-bottom: 20px;
+    border: 1px solid black;
 }
 
 .description{
@@ -264,6 +290,8 @@
     margin-right: 200px; */
     margin: 0 auto;
     border: 2px solid red;
+    margin-top: 90px;
+    margin-bottom: 100px;
 }
 
 .habits-section {
@@ -275,7 +303,7 @@
     height: 145px;
     width: 80%;
     margin: 0 auto;
-    border: 2px solid green;
+    margin-top: 30px;
 
 }
 
@@ -296,12 +324,10 @@
 .forth-description {
     font-size: 0.87rem;
     text-align: center;
+    color:rgba(255, 255, 255, 0.5) ;
 }
 
-.first-image,
-.second-image,
-.third-image,
-.forth-image {
+.first-tittle, .second-tittle, .third-tittle, .forth-tittle {
     font-size: 1.12rem;
     text-align: center;
 }
@@ -313,24 +339,16 @@
     width: 1000px;
     margin: 0 auto;
     gap: 70px;
-    border: 1px solid blue;
+   
 }
 
-
-.first-image,
-.second-image,
-.third-image,
-.forth-image img {
-    height: 180px;
+    /* height: 180px;
     width: 180px;
     align-items: center;
     margin-left: 10px;
-
     border: 2px solid olive;
-    border-radius: 50%;
+    border-radius: 50%; */
 
-
-}
 
 
 
@@ -358,12 +376,13 @@
 .run-tittle {
     font-size: 2rem;
 }
-.run-img {
+.run-img
+ {
     height: 312px;
     width: 100%;
     margin-top: 50px;
     margin-bottom: 30px;
-    border-radius: 50px;
+    border-radius: 60px;
     border: none;
 }
 /*run styles end */
