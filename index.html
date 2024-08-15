@@ -6,29 +6,31 @@
     <title>Fitness</title>
     <link rel="stylesheet" href="styles/fitness.css">
     <link href="https://fonts.cdnfonts.com/css/miama" rel="stylesheet">
+    <link rel="stylesheet" href="styles/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
                 
 </head>
 <body class="inter-font background-black text-white">
     <header>
-        <nav class="bg-color bg">
-            <nav class="nav
-            ar display-flex">
+            <nav class="navbar">
                 <h1 class="bd text-orange ">Fitness</h1>
             
-                <div class="nav-border ">
-                    <ul class="nav-links display-flex ">
-                        <div class="nav-imge">
-                            <img src="./images/icon.png" alt="">
-                        </div>
+                   <div class="links-container">
+                    <ul class="nav-links display-flex ">   
                         <li class="nav-item"><a href="" class="nav-link text-white btn-home ">Home</a></li>
                         <li class="nav-item"><a href="" class="nav-link text-white">Service</a></li>
                         <li class="nav-item"><a href="" class="nav-link text-white">Contact</a></li>
                         <li class="nav-item"><a href="" class="nav-link text-white">About</a></li>
-                    </ul>
+                    </ul> 
+                   </div>
 
+                <div  class="hamburg-menu">
+                    <i class="fa-solid fa-bars"></i>
                 </div>
     
             </nav>
+
+
             <div class="banner-section">
                 <div class="banner-container">
                     <div class="banner-text-content">
@@ -44,18 +46,17 @@
                         <img src="./images/Images 2.png" alt="">
 
 
-                        <button class="workout-videos ">
+                        <div class="workout-videos ">
                             <span  class="number-2 text-white" >500+</span>
                             <br>
                             <span class="free-videos text-p">Free Workout Videos</span>
-                        </button>
+                        </div>
                    
     
     
-                        <button class="video-tutorial display-flex  ">
-                            <div class="buttonn">
-                                <div class="logo">
-                                    <i class="fa-solid fa-circle"></i>
+                        
+                            <div  class="video-tutorial display-flex">
+                                <div class="logo">    
                                 </div>
                                 <div> 
                                     <span class="number-1 text-white">350+</span> <br>
@@ -64,81 +65,67 @@
                                 </div>
     
                             </div>
-                        </button>
-
-                
-          
+                        
 
                     </div>
                 </div>
 
-    
-                  
-
-
                 
                 </div>
-            
-        </nav>
+       
 
         </div>
 
     </header>
     <main>
-        <div class="change-habits-container">
+         <div class="change-habits-container">
             <div class="habits-section">
                 <h1 class="habits-tittle">Change Your Habits</h1>
                 <p class="habits-description text-p">We believe fitness should be accessible to everyone, everywhere, regardless of <br>
                     income or access to a gym.</p>
                
                 </div>
-               <div class="habits-images" >
-                <div class="habit-image-1">
-                    <img src="images/image 3.png" alt="">
-                    <h6 class="first-tittle">Movement</h6>
-                    <p class="first-description">We believe fitness should be accessible to everyone</p>
+               <div class="habits-images-container" >
+                <div class="habit-image">
+                    <img class="habit-images" src="images/image 3.png" alt="">
+                    <h6 class="habit-img-tittle">Movement</h6>
+                    <p class="habit-img-des">We believe fitness should be accessible to everyone</p>
 
                 </div>
-                <div class="second-image">
-                    <img src="images/image 2.png" alt="">
-                    <h6 class="second-tittle">Time</h6>
-                    <p class="second-description">We believe fitness should be accessible to everyone</p>
+                <div class="habit-image">
+                    <img class="habit-images" src="images/image 2.png" alt="">
+                    <h6 class="habit-img-tittle">Time</h6>
+                    <p class="habit-img-des">We believe fitness should be accessible to everyone</p>
 
                 </div>
-                <div class="third-image">
-                    <img src="images/image 4.png" alt="">
-                    <h6 class="third-tittle">Practice</h6>
-                    <p class="third-description">We believe fitness should be accessible to everyone</p>
-
-
+                <div class="habit-image">
+                    <img class="habit-images" src="images/image 4.png" alt="">
+                    <h6 class="habit-img-tittle">Practice</h6>
+                    <p class="habit-img-des">We believe fitness should be accessible to everyone</p>
 
                 </div>
-                <div class="forth-image">
-                    <img src="images/image 5.png" alt="">
-                    <h6 class="forth-tittle">Weight Loss</h6>
-                    <p class="third-description">We believe fitness should be accessible to everyone</p>
-
-
+                <div class="habit-image">
+                    <img class="habit-images" src="images/image 5.png" alt="">
+                    <h6 class="habit-img-tittle">Weight Loss</h6>
+                    <p class="habit-img-des">We believe fitness should be accessible to everyone</p>
 
                 </div>
                 <br>
     
                </div>
     
-
         </div>
 
-
             <div class="run-section display-flex">
-            <div class="run-content " >
+            <div class="run-content" >
                 <h1 class="run-tittle">Run an Extra <br>
                     Mile Easily</h1>
-                   <p class="description">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. With hundreds of professional workouts.</p><br>
+                   <p class="description text-p">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. With hundreds of professional workouts.</p><br>
 
                    <button class="btn-primary" > Join Now</button> 
                    
             </div>
-            <div class="run-img" >
+            <div class="run-img">
                 <img src="images/runn-.jpg" alt="">
             </div>
             </div>
@@ -151,18 +138,19 @@
 
         
            
-            <div class="bmi-form" >
+             <div class="bmi-form" >
                 <h4 class="form-tittle">BMI Calculator Chart</h4>
 
 
 
-                <div class="calculate-section" >
+
+                <!-- <div class="calculate-section" >
                     <h4 class="calculate-tittle" >Calculate your BMI</h4>
                     <p  class="calculate-description text-p" >We believe fitness should be accessible to everyone, everywhere, regardless of <br> income or access to a gym. </p>
                     <div class="tittle-form">
             </div>
 
-           </div>
+           </div> -->
 
 
 
@@ -173,60 +161,40 @@
 
     </main>
     <footer>
-
-        <section class="meet-team">
-            <div class="meet-text-content">
-                <h1 class="meet-team-tittle">Meet Our Team</h1>
-                <p class="meet-description text-p">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
-
-            </div>
-            <div class="meet-img-content">
-
-            </div>
-
-           </section>
-
         <section class="footer-content">
            <div class="final-footer">
             <div class="fit-tittle">
                 <h1 class="tittle text-orange">Fitness</h1>
-                <p class="description text-p ">We believe fitness should be accessible to everyone,<br> everywhere, regardless of income or access to a gym. With<br> hundreds of professional workouts.</p>
+                <p class="description text-p ">We believe fitness should be accessible to everyone,<br> everywhere, regardless of income or access to a gym. With <br> hundreds of professional workouts.</p>
             </div>
 
 
             <div class="get-start-1">
                 <h4 class="get-tittle-1">Get Started</h4>
                 <div class="all-text-1">
-
-        
+                    <h5 class="text">Service</h5>
+                    <h5 class="text">Contact Us</h5>
+                    <h5 class="text">Affiliate Program</h5>
+                    <h5 class="text">About Us</h5>
                 </div>
-                
             </div>
 
             <div class="get-start-2">
                 <h4 class="get-tittle-2">Get Started</h4>
                 <div class="all-text-2">
-
-                 
-                <h5 class="text-6">Platform</h5>
-                <h5 class="text-7">Workout Libary</h5>
-                <h5 class="text-8">App Design</h5>
+                <h5 class="text">Fitness</h5>
+                <h5 class="text">Platform</h5>
+                <h5 class="text">Workout Libary</h5>
+                <h5 class="text">App Design</h5>
                 </div>
 
             </div>
            </div>
-
-
            <div class="border-line"> </div>
-           
            <div class="last-line">
-
             <p class="last-line-tittle">All right reserved @Fitness 2024</p>
            </div>
-
         </section>
-
-
     </footer>
 </body>
 </html>
