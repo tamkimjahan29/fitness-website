@@ -358,60 +358,68 @@
     background-color: rgba(34, 34, 34, 1);
     margin-top: 60px;
     border: none;
-    height: 410px;
-    width: 100%;
-    padding: 30px;
+  
     display: flex;
 }
 
 .form-tittle {
     margin-left: 100px;
-    margin: 0 auto;
+    margin-right: 200px;
     margin-top: 35px;
     font-size: 1.5rem;
-
 }
 
+
+.calculate-tittle {
+    font-size: 1.5rem;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.calculate-section {
+    margin-top: 60px;
+    margin-left: 200px;
+    margin: 0 auto;
+    align-items: center;
+    margin-bottom: 30px;
+    padding: 20px;
+}
 .text-1,
 .text-2,
 .text-3,
 .text-4 {
     background: rgba(71, 67, 67, 0.6);
-    width: 45%;
-    height: 30px;
+    width: 30%;
+    height: 40px;
     border: none;
     border-radius: 5px;
     margin-bottom: 10px;
-    margin-left: 5px;
 }
 
+.form-1{
+    width:90%;
+    margin-left: 3px;
+    margin-top: 20px;
+}
+.form-2{
+    margin-right:50px;
+
+}
 .text-5 {
-    width: 92%;
-    height: 30px;
+    width: 55%;
+    height: 40px;
     background: rgba(71, 67, 67, 0.6);
     border: none;
     border-radius: 5px;
     margin-bottom: 20px;
-    margin-left: 3px;
-}
-
-.calculate-section {
-    margin-top: 60px;
-    margin-left: 400px;
-    margin: 0 auto;
-    align-items: center;
-    margin-bottom: 10px;
-    padding: 20px;
-}
-
-.calculate-tittle {
-    font-size: 1.5rem;
-    margin: 0 auto;
-    margin-top: 35px;
+    margin-left:3px;
 }
 
 
 /* meet team styles starts */
+
+
 .meet-text-content {
     height: 120px;
     width: 50%;
