@@ -334,9 +334,59 @@
 }
 /*run styles end */
 
+/* login  section */
+
+.btn-dwn {
+    color: white;
+    background-color: rgba(17, 17, 17, 1);
+    border-radius: 20px;
+    width: 120px;
+    height: 40px;
+}
+
+
+
+.extra-sec{
+    height: 300px;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border: 1px solid  rgba(255, 255, 255, 0.5) ;
+}
+
+.login{
+    font-size: 3rem;
+    font-style: italic;
+
+}
+
+.btn{
+    text-align: left;
+margin-left:20px;
+margin-top: 20px;
+}
+
+.login-container{
+    margin-right: 460px;
+   margin-top: 50px;
+   margin-bottom:5px;
+}
+
+.icon{
+    font-size: 4.5rem;
+    color: white;
+    text-align: right;
+    margin-right: 60px;
+}
+
+LOGIN{
+    display: flex;
+}
 
 
 /* BMI styles */
+
 .display-flex {
     display: flex;
 }
@@ -352,6 +402,10 @@
     flex-direction: column;
     margin: 0 auto;
     margin-left: 380px;
+}
+
+.bmi-tittle{
+    margin-top: 40px;
 }
 
 .bmi-form {
@@ -434,6 +488,11 @@
     justify-content: center;
     align-items: center;
     border-radius: 30px;
+
+}
+
+.meet-tittle{
+    margin-top: 60px;
 }
 
 .meet-team-tittle {
@@ -446,100 +505,43 @@
     font-size: 2rem;
 }
 
-.meet-img-content {
+.meet-img-content  {
     background-color: rgba(34, 34, 34, 1);
-    width: 1060px;
+    width: 1044px;
     height: 600px;
     border-radius: 20px;
-    margin-left: 190px;
-    margin: 0 auto;
+    text-align: center;
     margin-top: 60px;
 }
 
-.img-1 {
+.img{
     height: 270px;
-    width: 320px;
-    border: 2px solid red;
+    width:320px;
     background: url(../images/trainer1.png);
     background-position: center;
     background-size: cover;
-    height: 270px;
-    width: 320px;
-    margin-top: 5px;
-}
-
-.img-2 {
-    height: 270px;
-    width: 320px;
-    border: 2px solid red;
-    background: url(../images/trainer2.png);
-    background-position: center;
-    background-size: cover;
-    height: 270px;
-    width: 320px;
-    margin-top: 5px;
-}
-
-.img-3 {
-    height: 270px;
-    width: 320px;
-    border: 2px solid red;
-    background: url(../images/trainer3.png);
-    background-position: center;
-    background-size: cover;
-    height: 270px;
-    width: 320px;
-    margin-top: 5px;
+    margin-top: 15px;
+    margin-right: 12px;
+    border-radius: 30px;
+   
 }
 
 .three-img {
     display: flex;
     align-items: center;
+    margin-top: 3px;
+    margin-bottom: 3px;
     margin-left: 30px;
 }
 
-.last-imgs {
+.last-img {
     display: flex;
-    align-items: center;
     margin-left: 30px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+   
+   
 }
-
-.img-4 {
-    height: 270px;
-    width: 320px;
-    border: 2px solid red;
-    background: url(../images/trainer4.png);
-    background-position: center;
-    background-size: cover;
-    height: 270px;
-    width: 320px;
-    margin-top: 5px;
-}
-
-.img-5 {
-    height: 270px;
-    width: 320px;
-    border: 2px solid red;
-    background: url(../images/trainer5.png);
-    background-position: center;
-    background-size: cover;
-    height: 270px;
-    width: 320px;
-    margin-top: 5px;
-}
-
-.img-6 {
-    height: 270px;
-    width: 320px;
-    border: 2px solid red;
-    background: url(../images/trainer6.png);
-    background-position: center;
-    background-size: cover;
-    height: 270px;
-    width: 320px;
-    margin-top: 5px;
-}
-
 
 /* footer section start */
 
