@@ -305,7 +305,8 @@
 .run-section {
     background-color: rgba(34, 34, 34, 1);
     align-items: center;
-    width: 80%;
+    max-width: 80%;
+    height: 700px;
     margin: 0 auto;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -321,18 +322,28 @@
 
 .run-tittle {
     font-size: 2rem;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 .run-img
  {
     height: 312px;
-    /* width: 100%; */
+    max-width: 100%;
     margin-top: 50px;
     margin-left: 160px;
     margin-right: 50px;
     margin-bottom: 30px;
 }
+
+.join-btn{
+    margin-top: 2px;
+
+}
+
 /*run styles end */
+
+
+
 
 /* login  section */
 
@@ -344,11 +355,10 @@
     height: 40px;
 }
 
-
-
 .extra-sec{
+    background-color: black;
     height: 300px;
-    width: 50%;
+    max-width: 50%;
     text-align: center;
     margin: 0 auto;
     margin-bottom: 20px;
@@ -358,9 +368,7 @@
 .login{
     font-size: 3rem;
     font-style: italic;
-
 }
-
 .btn{
     text-align: left;
 margin-left:20px;
@@ -391,6 +399,13 @@ LOGIN{
     display: flex;
 }
 
+.chart{
+    display: flex;
+    border: 1px solid  rgba(68, 60, 60, 0.5) ;
+
+}
+
+
 .calculate-btn {
     display: flex;
     flex-direction: column;
@@ -398,21 +413,22 @@ LOGIN{
     margin-left: 10px;
 }
 .bmi-content {
+    max-width: 1044px;
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
-    margin-left: 380px;
 }
 
 .bmi-tittle{
     margin-top: 40px;
+   
 }
 
 .bmi-form {
+    max-width: 100%;
+    height: 430px;
     background-color: rgba(34, 34, 34, 1);
     margin-top: 60px;
     border: none;
-  
     display: flex;
 }
 
@@ -475,8 +491,9 @@ LOGIN{
 
 
 .meet-text-content {
+    max-width: 50%;
     height: 120px;
-    width: 50%;
+    
     margin: 0 auto;
     text-align: center;
     margin-bottom: 20px;
@@ -507,7 +524,7 @@ LOGIN{
 
 .meet-img-content  {
     background-color: rgba(34, 34, 34, 1);
-    width: 1044px;
+    max-width: 1044px;
     height: 600px;
     border-radius: 20px;
     text-align: center;
